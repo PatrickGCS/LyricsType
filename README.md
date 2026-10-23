@@ -86,7 +86,7 @@ lyrictype/
 
 ├── requirements.txt     # Dependências do Python
 
-├── LICENSE              # Licença de uso do projeto (MIT)
+├── LICENSE              # Licença de uso do projeto (GNU GPLv3)
 
 ├── README.md            # Documentação do projeto
 
@@ -225,18 +225,14 @@ Retorna a letra sincronizada e processada para o motor do jogo.
 #### Parâmetros de Query (`Query Strings`):
 
 
- 
-| Parâmetro | Tipo     | Obrigatório | Descrição                                                                  |
 
-| :---      | :---     | :---:       | :---                                                                       |
+* **`url`** (`string`, **Obrigatório**): URL do vídeo do YouTube ou ID de 11 caracteres.
 
-| `url`     | `string` | Sim         | URL do vídeo do YouTube ou ID de 11 caracteres.                            |
+* **`src`** (`string`, *Opcional*): Fonte da letra: `auto` (padrão), `lrclib` ou `yt`.
 
-| `src`     | `string` | Não         | Fonte da letra: `auto` (padrão), `lrclib` ou `yt`.                         |
+* **`lang`** (`string`, *Opcional*): Código ISO do idioma desejado (`pt`, `en`, `es`). Vazio mantém o original.
 
-| `lang`    | `string` | Não         | Código ISO do idioma desejado (`pt`, `en`, `es`). Vazio mantém o original. |
-
-| `dur`     | `int`    | Não         | Duração do vídeo em segundos para refinar a precisão da busca na LRCLIB.   |
+* **`dur`** (`int`, *Opcional*): Duração do vídeo em segundos para refinar a precisão da busca na LRCLIB.
 
 
 
@@ -282,7 +278,7 @@ Retorna a letra sincronizada e processada para o motor do jogo.
 
 
 
-Este projeto está sob a licença **GNU**. Consulta o ficheiro [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença **GNU GPLv3**. Consulta o ficheiro [LICENSE](LICENSE) para mais detalhes.
 
 
 
