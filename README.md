@@ -225,18 +225,18 @@ Retorna a letra sincronizada e processada para o motor do jogo.
 #### Parâmetros de Query (`Query Strings`):
 
 
+ 
+| Parâmetro | Tipo     | Obrigatório | Descrição                                                                  |
 
-| Parâmetro | Tipo | Obrigatório | Descrição |
+| :---      | :---     | :---:       | :---                                                                       |
 
-| :--- | :--- | :---: | :--- |
+| `url`     | `string` | Sim         | URL do vídeo do YouTube ou ID de 11 caracteres.                            |
 
-| `url` | `string` | Sim | URL do vídeo do YouTube ou ID de 11 caracteres. |
+| `src`     | `string` | Não         | Fonte da letra: `auto` (padrão), `lrclib` ou `yt`.                         |
 
-| `src` | `string` | Não | Fonte da letra: `auto` (padrão), `lrclib` ou `yt`. |
+| `lang`    | `string` | Não         | Código ISO do idioma desejado (`pt`, `en`, `es`). Vazio mantém o original. |
 
-| `lang` | `string` | Não | Código ISO do idioma desejado (`pt`, `en`, `es`). Vazio mantém o original. |
-
-| `dur` | `int` | Não | Duração do vídeo em segundos para refinar a precisão da busca na LRCLIB. |
+| `dur`     | `int`    | Não         | Duração do vídeo em segundos para refinar a precisão da busca na LRCLIB.   |
 
 
 
